@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package a2ud1_xoanaraujogandara;
+package EJ1_A2_UD1_xoanaraujogandara;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  *
  * @author usuario
  */
-public class A2UD1_XoanAraujoGandara {
+public class EJ1_A2_UD1_XoanAraujoGandara {
 
     private static PrintStream ps;
     private static Scanner sc = new Scanner(System.in);
