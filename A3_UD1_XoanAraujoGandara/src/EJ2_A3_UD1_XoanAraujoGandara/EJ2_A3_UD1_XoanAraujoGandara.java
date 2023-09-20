@@ -4,8 +4,6 @@
  */
 package EJ2_A3_UD1_XoanAraujoGandara;
 
-import EJ1_A3_UD1_XoanAraujoGandara.NotConsecutiveIntegersException;
-import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import util.BinaryInput;
@@ -18,16 +16,30 @@ import util.BinaryOutput;
 public class EJ2_A3_UD1_XoanAraujoGandara {
     private static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) { 
-        String path = createBin();
-        BinaryOutput out = new BinaryOutput(path);
+        BinaryOutput out = createBinOut();
+        System.out.println("<===>");
+        createConsecIntBinaryFile(out);
+        System.out.println("<===>");
+        
+        BinaryInput binaryInput = new BinaryInput("src/" + out.getName());
+        binaryInput.open();
+        binaryInput.read();
+        binaryInput.close();
+    }
+    
+    private static BinaryOutput createBinOut(){
+        System.out.print("Nombre del archivo: ");
+        BinaryOutput out = new BinaryOutput("src/" + sc.nextLine() + ".bin");
         if (out.exists()){
             System.out.println("Archivo existente, sobreescribir? [Y/N]");
-            if(sc.next().toUpperCase().charAt(0) ==  'Y')
-                while (out.exists())
-                    createBin();
+            if(sc.next().toUpperCase().charAt(0) ==  'N')
+                createBinOut();
         }
         
-        System.out.println("<===>");
+        return out;
+    }
+    
+    public static void createConsecIntBinaryFile(BinaryOutput out){
         out.open();
         int a;
         int b;
@@ -45,20 +57,9 @@ public class EJ2_A3_UD1_XoanAraujoGandara {
         } catch (InputMismatchException e) {
             System.out.println("Fin de introduccion de enteros.");
         } catch (NotConsecutiveIntegersException e){
-            e.getMessage();
+            System.out.println(e.getMessage());
         }
         out.close();
-        System.out.println("<===>");
-        
-        BinaryInput binaryInput = new BinaryInput(path);
-        binaryInput.open();
-        binaryInput.read();
-        binaryInput.close();
-    }
-    
-    private static String createBin(){
-        System.out.print("Nombre del archivo: ");
-        return "src/" + sc.nextLine() + ".bin";
     }
     
     private static int getInt() throws InputMismatchException{
