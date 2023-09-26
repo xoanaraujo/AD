@@ -4,6 +4,7 @@
  */
 package EJ2_A3_UD1_XoanAraujoGandara;
 
+import EJ1_A3_UD1_XoanAraujoGandara.NotConsecutiveIntegersException;
 import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -16,44 +17,43 @@ import util.BinaryOutput;
  */
 public class EJ2_A3_UD1_XoanAraujoGandara {
     private static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args) {
-        
-        
+    public static void main(String[] args) { 
         String path = createBin();
         BinaryOutput out = new BinaryOutput(path);
-        while(out.exists()){
-            System.out.println("Archivo existente.");
-            createBin();
+        if (out.exists()){
+            System.out.println("Archivo existente, sobreescribir? [Y/N]");
+            if(sc.next().toUpperCase().charAt(0) ==  'Y')
+                while (out.exists())
+                    createBin();
         }
-        BinaryInput in = new BinaryInput(path);
-        boolean isInt = true;
+        
         System.out.println("<===>");
-        while (isInt) {            
-            try {
-                int b = 0;
-                try{
-                    b = in.getIn().readInt();
-                } catch (NullPointerException e ) {
-                    b = getInt();
-                } catch(IOException e1){
-                    System.out.println(e1.getMessage());
-                }
-                int a = getInt();
-                if (b > a) {
-                    int tmp = a;
-                    a = b;
-                    b = tmp;
-                }
-                out.open();
+        out.open();
+        int a;
+        int b;
+        try {
+            a = getInt();
+            while (true) {
                 out.write(a);
-                out.write(b);
-                out.close();
-            } catch (InputMismatchException e) {
-                System.out.println("<===>");
-                isInt = false;
+                b = getInt();
+                if (b < a){
+                    throw new NotConsecutiveIntegersException();
+                }
+                else
+                    a = b;
             }
-            in.read();
+        } catch (InputMismatchException e) {
+            System.out.println("Fin de introduccion de enteros.");
+        } catch (NotConsecutiveIntegersException e){
+            e.getMessage();
         }
+        out.close();
+        System.out.println("<===>");
+        
+        BinaryInput binaryInput = new BinaryInput(path);
+        binaryInput.open();
+        binaryInput.read();
+        binaryInput.close();
     }
     
     private static String createBin(){
@@ -62,6 +62,8 @@ public class EJ2_A3_UD1_XoanAraujoGandara {
     }
     
     private static int getInt() throws InputMismatchException{
-        return sc.nextInt();
+        System.out.print("=> ");
+        int n = sc.nextInt();
+        return n;
     }
 }
