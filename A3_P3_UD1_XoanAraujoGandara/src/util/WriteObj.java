@@ -19,13 +19,13 @@ public class WriteObj extends FileIO{
         }
     }
 
-    public void openBuff(){
-        try {
-            oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(filePath)));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
+    //public void openBuff(){
+    //    try {
+    //        oos = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(filePath)));
+    //    } catch (IOException e) {
+    //        throw new RuntimeException(e);
+    //    }
+    //}
 
     @Override
     public void close() {
@@ -37,7 +37,7 @@ public class WriteObj extends FileIO{
     }
 
     public void writeObj(Object obj){
-        try {
+        try{
             oos.writeObject(obj);
         } catch (IOException e) {
             throw new RuntimeException(e);

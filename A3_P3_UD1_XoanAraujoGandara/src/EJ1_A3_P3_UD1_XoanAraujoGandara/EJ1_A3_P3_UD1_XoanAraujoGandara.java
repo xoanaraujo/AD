@@ -13,14 +13,14 @@ public class EJ1_A3_P3_UD1_XoanAraujoGandara {
 
         while (run){
         printMenu();
-            switch (getOption()){
-                case 0 : Operations.createFile(); break;
-                case 1 : Operations.addRegis(); break;
-                case 2 : Operations.printRegis(); break;
-                case 3 : Operations.printAllRegis(); break;
-                case 4 : Operations.modRegis(); break;
-                case 5 : Operations.delete(); break;
-                default : run = false;
+            switch (getOption()) {
+                case 0 -> Operations.createFile();
+                case 1 -> Operations.addRegis();
+                case 2 -> Operations.printRegis();
+                case 3 -> Operations.printAllRegis();
+                case 4 -> Operations.modRegis();
+                case 5 -> Operations.delete();
+                default -> run = false;
             }
         }
     }
