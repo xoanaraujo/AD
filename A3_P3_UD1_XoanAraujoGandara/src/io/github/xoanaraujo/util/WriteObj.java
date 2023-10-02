@@ -1,4 +1,4 @@
-package util;
+package io.github.xoanaraujo.util;
 
 import java.io.*;
 

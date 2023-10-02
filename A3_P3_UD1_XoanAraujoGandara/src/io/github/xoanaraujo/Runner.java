@@ -1,4 +1,4 @@
-package EJ1_A3_P3_UD1_XoanAraujoGandara;
+package io.github.xoanaraujo;
 
 import java.io.Serializable;
 
