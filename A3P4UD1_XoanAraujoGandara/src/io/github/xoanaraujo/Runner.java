@@ -6,17 +6,17 @@ public class Runner implements Serializable {
     private String name;
     private Integer dorsal;
     private Integer time;
-    private Boolean isDeleted;
+    private Boolean deleted;
 
     public Runner(String name, Integer dorsal, Integer time) {
+        this(name, dorsal, time, false);
+    }
+
+    public Runner(String name, int dorsal, int time, boolean deleted) {
         this.name = name;
         this.dorsal = dorsal;
         this.time = time;
-        isDeleted = false;
-    }
-
-    public void delete() {
-        isDeleted = true;
+        this.deleted = deleted;
     }
 
     public String getName() {
@@ -29,5 +29,9 @@ public class Runner implements Serializable {
 
     public Integer getTime() {
         return time;
+    }
+
+    public Boolean isDeleted() {
+        return deleted;
     }
 }
