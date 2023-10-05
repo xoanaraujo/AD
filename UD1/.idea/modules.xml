@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/A1UD1_XoanAraujoGandara/A1UD1_XoanAraujoGandara.iml" filepath="$PROJECT_DIR$/A1UD1_XoanAraujoGandara/A1UD1_XoanAraujoGandara.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A2UD1_XoanAraujoGandara/A2UD1_XoanAraujoGandara.iml" filepath="$PROJECT_DIR$/A2UD1_XoanAraujoGandara/A2UD1_XoanAraujoGandara.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A2UD1_XoanAraujoGandara/src/A2UD1_XoanAraujoGandara1.iml" filepath="$PROJECT_DIR$/A2UD1_XoanAraujoGandara/src/A2UD1_XoanAraujoGandara1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A3P1UD1_XoanAraujoGandara/A3P1UD1_XoanAraujoGandara.iml" filepath="$PROJECT_DIR$/A3P1UD1_XoanAraujoGandara/A3P1UD1_XoanAraujoGandara.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A3P3_UD1_XoanAraujoGandara/A3P3_UD1_XoanAraujoGandara.iml" filepath="$PROJECT_DIR$/A3P3_UD1_XoanAraujoGandara/A3P3_UD1_XoanAraujoGandara.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A3P4UD1_XoanAraujoGandara/A3P4UD1_XoanAraujoGandara.iml" filepath="$PROJECT_DIR$/A3P4UD1_XoanAraujoGandara/A3P4UD1_XoanAraujoGandara.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A4UD1_XoanAraujoGandara/A4UD1_XoanAraujoGandara.iml" filepath="$PROJECT_DIR$/A4UD1_XoanAraujoGandara/A4UD1_XoanAraujoGandara.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UD1.iml" filepath="$PROJECT_DIR$/UD1.iml" />
+    </modules>
+  </component>
+</project>

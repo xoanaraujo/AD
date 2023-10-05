@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76aed0ec-f589-4e14-b97f-681c45fe2e7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/Datos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/NumerosPositivos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/src/EJ1_A1UD1/EJ1_A1UD1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/src/EJ3y4_A1UD1/EJ3_A1UD1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/src/Ej2_A1UD1/Datos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/src/Ej2_A1UD1/Ej2_A1UD1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/src/Ej2_A1UD1/NotPositiveNumberException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/src/Ej2_A1UD1/Teclado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1UD1_XoanAraujoGandara/src/NumerosPositivos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ1_A2_UD1_xoanaraujogandara/EJ1_A2_UD1_XoanAraujoGandara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ2_A2_UD1_xoanaraujogandara/EJ2_A2_UD1_XoanAraujoGandara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ2_A2_UD1_xoanaraujogandara/NotDirectoryFileException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ3_A2_UD1_xoanaraujogandara/EJ3_A2_UD1_XoanAraujoGandara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ4_A2_UD1_xoanaraujogandara/EJ4_A2_UD1_XoanAraujoGandara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ4_A2_UD1_xoanaraujogandara/Filtro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ5_A2_UD1_XoanAraujoGandara$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ5_A2_UD1_XoanAraujoGandara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ6_A2_UD1_XoanAraujoGandara/EJ6_A2_UD1_XoanAraujoGandara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/EJ6_A2_UD1_XoanAraujoGandara/Filtro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/Filtro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/build/classes/listadoUnidades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/listadoUnidades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/src/EJ1_A2_UD1_xoanaraujogandara/EJ1_A2_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/src/EJ2_A2_UD1_xoanaraujogandara/EJ2_A2_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/src/EJ2_A2_UD1_xoanaraujogandara/NotDirectoryFileException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/src/EJ3_A2_UD1_xoanaraujogandara/EJ3_A2_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/src/EJ4_A2_UD1_xoanaraujogandara/EJ4_A2_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/src/EJ5_A2_UD1_XoanAraujoGandara/EJ5_A2_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/src/EJ6_A2_UD1_XoanAraujoGandara/EJ6_A2_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2UD1_XoanAraujoGandara/src/listadoUnidades.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/A3P4UD1_XoanAraujoGandara.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/data/corredores.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/src/io/github/xoanaraujo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/src/io/github/xoanaraujo/Operations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3P4UD1_XoanAraujoGandara/src/io/github/xoanaraujo/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/ALUMNOS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/Ejemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/Fich1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/Fich2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/Fich3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/Salida.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/src/ej1_a3ud1_p2_xoanaraujogandara/A3UD1_p2_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/src/ej2_a3ud1_pt2_xoanaraujogandara/Ej2_A3UD1_pt2_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/src/util/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/src/util/NotDirectoryFileException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/src/util/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3UD1_p2_XoanAraujoGandara/src/util/WriteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/RunnerManager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/data/corredores.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/src/io/github/xoanaraujo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/src/io/github/xoanaraujo/Operations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/src/io/github/xoanaraujo/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/src/io/github/xoanaraujo/util/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/src/io/github/xoanaraujo/util/MyObjectOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/src/io/github/xoanaraujo/util/ReadObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_P3_UD1_XoanAraujoGandara/src/io/github/xoanaraujo/util/WriteObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/build/classes/EJ2_A3_UD1_XoanAraujoGandara/EJ2_A3_UD1_XoanAraujoGandara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/build/classes/EJ2_A3_UD1_XoanAraujoGandara/NotConsecutiveIntegersException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/build/classes/EJ3_A3_UD1_XoanAraujoGandara/EJ3_A3_UD1_XoanAraujoGandara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/build/classes/numerosConsecutivos.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/build/classes/pepitogrillo.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/build/classes/util/BinaryInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/build/classes/util/BinaryOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/EJ1_A3_UD1_XoanAraujoGandara/EJ1_A3_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/EJ2_A3_UD1_XoanAraujoGandara/EJ2_A3_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/EJ2_A3_UD1_XoanAraujoGandara/NotConsecutiveIntegersException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/EJ3_A3_UD1_XoanAraujoGandara/EJ3_A3_UD1_XoanAraujoGandara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/numerosConsecutivos.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/pepitogrillo.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/util/BinaryInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/util/BinaryOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A3_UD1_XoanAraujoGandara/src/util/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/A4UD1_XoanAraujoGandar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/NotasAlumnos.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/alumnos.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/CLASESDATOS/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/CLASESDATOS/Nombre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/CLASESDATOS/NotaAlumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/CLASESDATOS/NotaModulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/a4ud1_alumno/A4UD1_Alumnos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/util/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/util/ReadNotas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/util/ReadWriteAlumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A4UD1_XoanAraujoGandar/src/util/WriteNotas.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2WLnjMIAHxWYR2jIuQmm0fL3gnW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Xoan/Documents/GitHub/DAM/AD/UD1/A4UD1_XoanAraujoGandara"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76aed0ec-f589-4e14-b97f-681c45fe2e7f" name="Changes" comment="" />
+      <created>1696520861324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696520861324</updated>
+    </task>
+    <servers />
+  </component>
+</project>
