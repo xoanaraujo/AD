@@ -2,7 +2,7 @@ package util;
 
 import java.io.FileNotFoundException;
 
-public class ReadNotas extends FileIO{
+public class    ReadNotas extends FileIO{
     public ReadNotas(String path) {
         super(path);
     }

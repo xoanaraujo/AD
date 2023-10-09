@@ -1,5 +1,6 @@
 package util.notas;
 
+import model.NotaAlumno;
 import util.FileIO;
 
 import java.io.File;
@@ -18,7 +19,7 @@ public class OutputNotas extends FileIO {
     @Override
     public void open() {
         try {
-            oos = new ObjectOutputStream(new FileOutputStream(mainFile));
+            oos = new MyObjectOutputStream(new FileOutputStream(mainFile));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -28,6 +29,14 @@ public class OutputNotas extends FileIO {
     public void close() {
         try {
             oos.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void escribirNota(NotaAlumno nota){
+        try {
+            oos.writeObject(nota);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

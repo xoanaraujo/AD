@@ -9,27 +9,23 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Alumno implements Serializable {
- private int numero;
- private Nombre nombre;
- Date fechaNac;
- ArrayList <String> telefono;
- boolean borrado;
+    private int numero;
+    private Nombre nombre;
+    Date fechaNac;
+    ArrayList<String> telefono;
+    boolean borrado;
 
     public Alumno() {
     }
-    
 
-    public Alumno( Nombre nombre, Date fechaNac, ArrayList<String> telefono, boolean borrado) {
-        
+    public Alumno(int numero, Nombre nombre, Date fechaNac, ArrayList<String> telefono, boolean borrado) {
+        this.numero = numero;
         this.nombre = nombre;
         this.fechaNac = fechaNac;
         this.telefono = telefono;
         this.borrado = borrado;
     }
 
-  
-
-  
 
     public int getNumero() {
         return numero;
@@ -71,12 +67,11 @@ public class Alumno implements Serializable {
         this.borrado = borrado;
     }
 
-  
-   
+
     public long longitudRegistro() {
         //Date en Internet dice que ocupa 12 bytes? . Vamos a suponer esto
-        
-        return (4+nombre.nombre.length() +nombre.apellido1.length()+nombre.apellido2.length()+12 + (telefono.toString()).length()+ 1);
+
+        return (4 + nombre.nombre.length() + nombre.apellido1.length() + nombre.apellido2.length() + 12 + (telefono.toString()).length() + 1);
 
     }
 }

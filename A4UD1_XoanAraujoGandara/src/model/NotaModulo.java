@@ -12,7 +12,6 @@ import java.io.Serializable;
  * @author usuario
  */
 public class NotaModulo implements Serializable {
-
     String asignatura;
     Double nota;
 
