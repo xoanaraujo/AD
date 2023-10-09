@@ -1,0 +1,4 @@
+ cadena: 4
+ caracter: 1
+ entero: 4
+ numero real double: 3.0

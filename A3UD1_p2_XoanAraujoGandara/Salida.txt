@@ -1,0 +1,3 @@
+Fich1.txt numero de lineas: 2
+Fich2.txt numero de lineas: 2
+Fich3.txt numero de lineas: 3
