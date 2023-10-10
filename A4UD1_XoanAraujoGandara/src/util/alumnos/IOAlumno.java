@@ -43,10 +43,10 @@ public class IOAlumno extends FileIO {
             raf.writeUTF(alumno.getNombre().getNombre());
             raf.writeUTF(alumno.getNombre().getApellido1());
             raf.writeUTF(alumno.getNombre().getApellido2());
-            raf.writeLong(Long.parseLong(alumno.getFechaNac().toString()));
-            raf.writeInt(alumno.getTelefono().size());
-            for (int i = 0; i < alumno.getTelefono().size(); i++) {
-                raf.writeUTF(alumno.getTelefono().get(i));
+            raf.writeLong(alumno.getFechaNac().getTime());
+            raf.writeInt(alumno.getTelefonos().size());
+            for (int i = 0; i < alumno.getTelefonos().size(); i++) {
+                raf.writeUTF(alumno.getTelefonos().get(i));
             }
             raf.writeBoolean(alumno.isBorrado());
         } catch (IOException e) {
@@ -62,8 +62,7 @@ public class IOAlumno extends FileIO {
             String nombre = raf.readUTF();
             String apellido1 = raf.readUTF();
             String apellido2 = raf.readUTF();
-            Long dateLong = raf.readLong();
-            Date date = Date.valueOf(dateLong.toString());
+            Date date = new Date(raf.readLong());
             int nTelefonos = raf.readInt();
             ArrayList<String> telefonos = new ArrayList<>();
             for (int i = 0; i < nTelefonos; i++) {

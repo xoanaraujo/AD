@@ -51,7 +51,7 @@ public class Alumno implements Serializable {
         this.fechaNac = fechaNac;
     }
 
-    public ArrayList<String> getTelefono() {
+    public ArrayList<String> getTelefonos() {
         return telefono;
     }
 

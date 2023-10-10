@@ -20,7 +20,7 @@ public class InputNotas extends FileIO {
         try {
             ois = new ObjectInputStream(new FileInputStream(mainFile));
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -34,13 +34,16 @@ public class InputNotas extends FileIO {
     }
 
     public NotaAlumno leerNotas(int pos){
+        boolean notaOk = false;
         int i = 0;
-        NotaAlumno notas = null;
+        NotaAlumno notas;
         try {
             do{
                 notas = (NotaAlumno) ois.readObject();
+                if (pos == i)
+                    notaOk = true;
                 i++;
-            } while (i != pos);
+            } while (!notaOk);
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }

@@ -91,7 +91,7 @@ public class Operaciones {
                         addNota = false;
                     } else {
                         System.out.println("Nota?");
-                        Double nota = (Double) sc.nextDouble();
+                        Double nota = sc.nextDouble();
                         sc.nextLine();
                         notas.add(new NotaModulo(asignatura, nota));
                     }
@@ -102,7 +102,11 @@ public class Operaciones {
                     ioAlumno.open();
                     ioAlumno.escribirAlumno(alumno, nAlumnos);
                     ioAlumno.close();
-                    outputNotas.open();
+                    if (nAlumnos == 0){
+                        outputNotas.openWithHeader();
+                    } else {
+                        outputNotas.open();
+                    }
                     outputNotas.escribirNota(notasAlumno);
                     outputNotas.close();
                 } catch (Exception e){
@@ -118,7 +122,9 @@ public class Operaciones {
     }
 
     public static void datosAlumnos() {
-
+        for (int i = 0; i < nAlumnos; i++) {
+            leerAlumno(i);
+        }
     }
 
     private static void leerAlumno(int pos){
@@ -129,7 +135,7 @@ public class Operaciones {
         System.out.print("FECHA NACIMIENTO: " + alumno.getFechaNac());
         System.out.println(" EDAD: " + (LocalDate.now().getYear() - alumno.getFechaNac().getYear()));
         inputNotas.open();
-        ArrayList<NotaModulo> notas = inputNotas.leerNotas(alumno.getNumero() - 1).getNotas();
+        ArrayList<NotaModulo> notas = inputNotas.leerNotas(pos).getNotas();
         inputNotas.close();
         int sumNotas = 0;
         for (int i = 0; i < notas.size(); i++) {
@@ -143,8 +149,51 @@ public class Operaciones {
     }
 
     public static void datosNotas() {
+        for (int i = 0; i < nAlumnos; i++) {
+            ioAlumno.open();
+            Alumno alumno = ioAlumno.leerAlumno(i);
+            ioAlumno.close();
+            inputNotas.open();
+            ArrayList<NotaModulo> notas = inputNotas.leerNotas(i).getNotas();
+            inputNotas.close();
+            System.out.println("----------------------------");
+            System.out.println(alumno.getNumero() + ". " + alumno.getNombre() + " ");
+            for (int j = 0; j < notas.size(); j++) {
+                System.out.println(notas.get(i).getAsignatura() + " - " + notas.get(i).getNota());
+            }
+            System.out.println("----------------------------");
+        }
     }
 
     public static void consultarTelefono() {
+        int numeroAlumno;
+        do {
+        System.out.println("Numero del alumno");
+        numeroAlumno = sc.nextInt();
+        } while (numeroAlumno > nAlumnos);
+        sc.nextLine();
+        System.out.println("Numero de telefono?");
+        if (existTelefonoOfAlumno(numeroAlumno, sc.nextLine())){
+            System.out.println("Numero existente, sobreescribirlo? [1] Si [2] No");
+        } else {
+            System.out.println("Numero no encontrado, guardar? [1] Si [2] No");
+        }
+        if(sc.nextInt() == 1){
+            ioAlumno.open();
+            ioAlumno.escribirAlumno(ioAlumno.leerAlumno(numeroAlumno), numeroAlumno);
+            ioAlumno.close();
+        }
+    }
+
+    private static boolean existTelefonoOfAlumno(int nAlumno, String tel){
+        ioAlumno.open();
+        Alumno alumno = ioAlumno.leerAlumno(nAlumno);
+        for (int j = 0; j < alumno.getTelefonos().size(); j++) {
+            if (alumno.getTelefonos().get(j).equals(tel)){
+                return true;
+            }
+        }
+        ioAlumno.close();
+        return false;
     }
 }

@@ -25,6 +25,13 @@ public class OutputNotas extends FileIO {
         }
     }
 
+    public void openWithHeader() {
+        try {
+            oos = new ObjectOutputStream(new FileOutputStream(mainFile));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
     @Override
     public void close() {
         try {
