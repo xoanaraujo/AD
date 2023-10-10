@@ -167,21 +167,23 @@ public class Operaciones {
 
     public static void consultarTelefono() {
         int numeroAlumno;
-        do {
         System.out.println("Numero del alumno");
         numeroAlumno = sc.nextInt();
-        } while (numeroAlumno > nAlumnos);
         sc.nextLine();
-        System.out.println("Numero de telefono?");
-        if (existTelefonoOfAlumno(numeroAlumno, sc.nextLine())){
-            System.out.println("Numero existente, sobreescribirlo? [1] Si [2] No");
+        if (numeroAlumno > nAlumnos){
+            System.out.println("No existe ese alumno.");
         } else {
-            System.out.println("Numero no encontrado, guardar? [1] Si [2] No");
-        }
-        if(sc.nextInt() == 1){
-            ioAlumno.open();
-            ioAlumno.escribirAlumno(ioAlumno.leerAlumno(numeroAlumno), numeroAlumno);
-            ioAlumno.close();
+            System.out.println("Numero de telefono?");
+            if (existTelefonoOfAlumno(numeroAlumno, sc.nextLine())){
+                System.out.println("Numero existente, sobreescribirlo? [1] Si [2] No");
+            } else {
+                System.out.println("Numero no encontrado, guardar? [1] Si [2] No");
+            }
+            if(sc.nextInt() == 1){
+                ioAlumno.open();
+                ioAlumno.escribirAlumno(ioAlumno.leerAlumno(numeroAlumno), numeroAlumno);
+                ioAlumno.close();
+            }
         }
     }
 
