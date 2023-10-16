@@ -1,32 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package util;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 
-/**
- *
- * @author usuario
- */
 public abstract class FileIO {
-    
-    protected File filePath;
-    public FileIO(String path){
-        filePath = new File(path);
+
+    protected File mainFile;
+
+    public FileIO(File mainFile) {
+        this.mainFile = mainFile;
     }
-    
-    public boolean exists(){
-        return filePath.exists();
-    }
-    
-    public String getName(){
-        return filePath.getName();
-    }
-    
-    public abstract void open() throws FileNotFoundException;
+
+    public abstract void open();
     public abstract void close();
-    
+
+
 }

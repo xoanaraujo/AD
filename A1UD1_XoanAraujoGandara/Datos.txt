@@ -1,4 +1,0 @@
- cadena: 3
- caracter: 3
- entero: 21
- numero real double: 323.0
