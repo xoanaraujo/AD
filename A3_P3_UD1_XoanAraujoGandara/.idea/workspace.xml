@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -28,7 +31,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/usuario/Documents/GitHub/AD/A3P4UD1_XoanAraujoGandara",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/usuario/Documents/GitHub/AD/A3_P3_UD1_XoanAraujoGandara",
     "onboarding.tips.debug.path": "C:/Users/usuario/Desktop/RunnerManager/src/Main.java"
   }
 }]]></component>
