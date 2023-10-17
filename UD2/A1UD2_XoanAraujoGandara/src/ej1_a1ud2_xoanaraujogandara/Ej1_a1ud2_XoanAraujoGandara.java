@@ -96,37 +96,48 @@ public class Ej1_a1ud2_XoanAraujoGandara {
         System.out.println("======================================");
 
         // 12*/
-        printXML(doc.getDocumentElement(), 0);
+        printXml(doc.getDocumentElement(), 0);
     }
 
-    private static void readNode(Node node, int nChild, int height, boolean writeOk){
-        if (writeOk){
-        System.out.println( "\t".repeat(height) + "-" + node.getNodeName() + ": " + (node.getNodeValue() == null ? "" : node.getNodeValue()));
-        NamedNodeMap attributes = node.getAttributes();
-        if (attributes != null)
-            for (int i = 0; i < attributes.getLength(); i++) {
-                System.out.println("\t".repeat(height) + "\t-" + attributes.item(i).getNodeName() + ": " + attributes.item(i).getNodeValue());
-            }
+    private static void readNode(Node node, int nChild, int height, boolean writeOk) {
+        if (writeOk) {
+            System.out.println("\t".repeat(height) + "-" + node.getNodeName() + ": " + (node.getNodeValue() == null ? "" : node.getNodeValue()));
+            NamedNodeMap attributes = node.getAttributes();
+            if (attributes != null)
+                for (int i = 0; i < attributes.getLength(); i++) {
+                    System.out.println("\t".repeat(height) + "\t-" + attributes.item(i).getNodeName() + ": " + attributes.item(i).getNodeValue());
+                }
         }
-        if(node.hasChildNodes() && node.getChildNodes().item(nChild) != null){
+        if (node.hasChildNodes() && node.getChildNodes().item(nChild) != null) {
             readNode(node.getChildNodes().item(nChild), 0, height + 1, true);
-        } else{
+        } else {
             readNode(node.getParentNode().getParentNode(), nChild + 1, height - 1, false);
         }
     }
 
-    private static void printXML(Node node, int height){
+    private static void printXml(Node node, int height) {
+        Document document = node.getOwnerDocument();
+        if (node == document.getDocumentElement())
+            System.out.println("<?xml version=\"" + document.getXmlVersion() + "\" encoding=\"" + document.getXmlEncoding() + "\"?>");
+
         NamedNodeMap attributes;
         StringBuilder atrBuilder = new StringBuilder();
-        if (node.hasAttributes()){
+        if (node.hasAttributes()) {
             attributes = node.getAttributes();
             for (int i = 0; i < attributes.getLength(); i++) {
-                atrBuilder.append(" ").append(attributes.item(i).getNodeName()).append("=\"").append(node.getNodeValue()).append("\"");
+                atrBuilder.append(" ").append(attributes.item(i).getNodeName()).append("=\"").append(attributes.item(i).getNodeValue()).append("\"");
             }
         }
-        if (node.getNodeValue() == null)
-            System.out.println( "\t".repeat(height) + "<" + node.getNodeName() + atrBuilder + ">");
-        else
-            System.out.println( "\t".repeat(height) + "<" + node.getNodeName() + ">" +node.getNodeValue()+ "</" + node.getNodeName() + ">");
+        String name = node.getNodeName().equals("#text") ? "" : "<" + node.getNodeName() + atrBuilder + ">";
+
+        System.out.println("\t".repeat(height) + name + (node.getNodeValue() == null ? "" : node.getNodeValue() + name));
+        if (node.hasChildNodes()) {
+            NodeList childs = node.getChildNodes();
+            for (int i = 0; i < childs.getLength(); i++) {
+                printXml(childs.item(i), height + 1);
+            }
+            System.out.println("\t".repeat(height) + "</" + node.getNodeName() + ">");
+
+        }
     }
 }
