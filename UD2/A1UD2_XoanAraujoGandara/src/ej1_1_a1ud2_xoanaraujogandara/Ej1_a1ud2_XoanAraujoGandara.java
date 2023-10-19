@@ -1,4 +1,4 @@
-package ej1_a1ud2_xoanaraujogandara;
+package ej1_1_a1ud2_xoanaraujogandara;
 
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
@@ -115,7 +115,7 @@ public class Ej1_a1ud2_XoanAraujoGandara {
         }
     }
 
-    private static void printXml(Node node, int height) {
+    private static void printXml(Node node, int nParents) {
         Document document = node.getOwnerDocument();
         if (node == document.getDocumentElement())
             System.out.println("<?xml version=\"" + document.getXmlVersion() + "\" encoding=\"" + document.getXmlEncoding() + "\"?>");
@@ -130,13 +130,13 @@ public class Ej1_a1ud2_XoanAraujoGandara {
         }
         String name = node.getNodeName().equals("#text") ? "" : "<" + node.getNodeName() + atrBuilder + ">";
 
-        System.out.println("\t".repeat(height) + name + (node.getNodeValue() == null ? "" : node.getNodeValue() + name));
+        System.out.println("\t".repeat(nParents) + name + (node.getNodeValue() == null ? "" : node.getNodeValue() + name));
         if (node.hasChildNodes()) {
             NodeList childs = node.getChildNodes();
             for (int i = 0; i < childs.getLength(); i++) {
-                printXml(childs.item(i), height + 1);
+                printXml(childs.item(i), nParents + 1);
             }
-            System.out.println("\t".repeat(height) + "</" + node.getNodeName() + ">");
+            System.out.println("\t".repeat(nParents) + "</" + node.getNodeName() + ">");
 
         }
     }
