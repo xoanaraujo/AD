@@ -1,0 +1,26 @@
+
+Informacion de actores
+=============================
+Actor 1
+**************
+id: 51
+Nome: Elisabeth Shue
+Sexo: muller
+DataNacemento: 06/10/1963
+-----------------------
+Actor 2
+**************
+id: 139
+Nome: Jhonny Depp
+Sexo: home
+DataNacemento: 09/06/1963
+-----------------------
+Actor 3
+**************
+id: 100
+Nome: Harrison Ford
+Sexo: home
+DataNacemento: 13/07/1943
+-----------------------
+Total de actores: 3
+Fin del documento...
