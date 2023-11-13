@@ -21,7 +21,7 @@ public class EJ1_A2RUD2_XoanAraujoGandara {
 
     private static void updateDate(){
         Document doc = DOMManager.getDocument(XML_PATH);
-        NodeList actorNodes = doc.getElementsByTagName("Actores");
+        NodeList actorNodes = doc.getElementsByTagName("Actor");
         try(BufferedReader bffReader = new BufferedReader(new FileReader(TXT_PATH))){
             String line;
             int i = 0;

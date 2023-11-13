@@ -15,8 +15,7 @@ public class DOMManager {
     public static Document getDocument(String xmlPath){
         Document doc;
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-        dbf.setValidating(true);
-        dbf.setNamespaceAware(true);
+        //dbf.setNamespaceAware(true);
         dbf.setIgnoringComments(true);
         dbf.setIgnoringElementContentWhitespace(true);
         try {
