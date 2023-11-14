@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Modulo>
+      <Nome>Redes de Area Local</Nome>
+      <Contidos>
+            <Bloque num="1" sesións="60">
+                  <Titulo>Sistemas de comunicacións</Titulo>
+                  <Descrición>Aspectos físicos, protocolos e arquitecturas de redes.</Descrición>
+            </Bloque>
+            <Bloque num="2" sesións="50">
+                  <Titulo>Redes de datos</Titulo>
+                  <Descrición>Dispositivos de interconexión de redes locais e de área extensa.</Descrición>
+            </Bloque>
+            <Bloque num="3" sesións="90">
+                  <Titulo>Redes de área local</Titulo>
+                  <Descrición>Administración e xestión dunha rede de área local.</Descrición>
+            </Bloque>
+            <Bloque num="4" sesións="60">
+                  <Titulo>Servizos Internet</Titulo>
+                  <Descrición>Adm. de servizos que empreguen protocolos estándar en Internet.</Descrición>
+            </Bloque>
+      </Contidos>
+</Modulo>

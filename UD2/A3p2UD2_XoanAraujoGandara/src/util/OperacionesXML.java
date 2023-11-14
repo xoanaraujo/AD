@@ -41,10 +41,10 @@ public class OperacionesXML {
         dbf.setValidating(true);
         dbf.setNamespaceAware(true);
         dbf.setIgnoringComments(true);
+        dbf.setIgnoringElementContentWhitespace(true);
         dbf.setAttribute(JAXP_SCHEMA_LANGUAGE, W3C_XML_SCHEMA);
 
         try {
-            dbf.setIgnoringElementContentWhitespace(true);
             DocumentBuilder constructor = dbf.newDocumentBuilder();
             constructor.setErrorHandler(new SimpleErrorHandler());
 
@@ -62,7 +62,6 @@ public class OperacionesXML {
         return documento;
     }
 
-    //Con un atributo
     public static Element addElementoAlFinal(Document documento, String nombreElemento, String nombreAtributo, String valorAtributo) {
         Element elemento = documento.createElement(nombreElemento);
         documento.getDocumentElement().appendChild(elemento);
