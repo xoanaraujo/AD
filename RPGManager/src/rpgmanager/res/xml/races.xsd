@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this template
+-->
+
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="races">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="race" type="typeRace" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name ="typeRace">
+        <xs:sequence>
+            <xs:element name="subrace" type="typeSubrace" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="observations" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name ="typeSubrace">
+        <xs:sequence>
+            <xs:element name="observations" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+</xs:schema>

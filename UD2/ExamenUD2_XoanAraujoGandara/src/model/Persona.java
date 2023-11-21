@@ -8,6 +8,7 @@ package model;
 import java.util.ArrayList;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlList;
+import javax.xml.bind.annotation.XmlType;
 
 /**
  *

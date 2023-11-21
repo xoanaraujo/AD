@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<races xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="races.xsd">
+    <race name="dwarf">
+        <subrace name="hill">
+            <observations>
+                
+            </observations>
+        </subrace>
+        <subrace name="mountain">
+            <observations>
+                
+            </observations>
+        </subrace>
+        <observations>
+                
+        </observations>
+    </race>
+    
+    <race name="elf">
+        <subrace name="high">
+            <observations>
+                
+            </observations>
+        </subrace>
+        <subrace name="wood">
+            <observations>
+                
+            </observations>
+        </subrace>
+        <subrace name="drow">
+            <observations>
+                
+            </observations>
+        </subrace>
+        <observations>
+                
+        </observations>
+    </race>
+</races>
